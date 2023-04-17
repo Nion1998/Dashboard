@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:ital,wght@0,300;0,700;1,400&family=Public+Sans:wght@100;500;800;900&family=Roboto+Condensed&family=Roboto+Mono:wght@300&display=swap');
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(249, 249, 249);
+   
+}
+.warapper .sidebar{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100%;
+    padding: 5px 0;
+    overflow: scroll; 
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+.warapper .top{
+    width:auto;
+    margin-left: 280px;
+    transition: all 0.5s ease;   
+}
+.warapper .top_navber{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+body.active .warapper .sidebar{
+    left: -280px;
+}
+body.active .warapper .top{
+    margin-left: 0px;
+}
+.side_close{
+    display: none;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .drop:hover{
+    background: #1d2f43 !important;
+    color: #ffffff;
+    
+  }
+.accordion-button {
+    transition: .5s;
+
+}
+.accordion-button:not(.collapsed)::after  {
+    background-color: yellow;
+}
+.accordion-button:not(.collapsed) {
+    background: #1d2f43 !important;   
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.bell{
+    position: relative;
+}
+.bell::after{
+    position: absolute;
+    background-color: red;
+    content:"4";
+    font-size: 8px;
+    color:#ffffff ;
+    padding: 3px;
+    border-radius: 50%;
+    top:-5px;
+    right:2px;
+}
+
+.fa-bars::before{
+    font-size: 25px;
+    color: black !important;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .warapper .sidebar{
+        left: -280px;
+        position: absolute;
+    }
+    body.active .warapper .sidebar{
+        left: 0%;
+    }
+    .warapper .top{
+        margin-left:0%;
+    }
+    .side_close{
+        display:block;
+    }
+    .top input {
+       display:none;
+    }
+    .top span i {
+       display:none;
+    }
+    .profile-pic {
+        height: 30px;
+        width: 30px;
+    }
+    
+   
+  }
