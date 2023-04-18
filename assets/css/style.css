@@ -26,12 +26,14 @@ body{
     width:auto;
     margin-left: 280px;
     transition: all 0.5s ease;   
+    
 }
 .warapper .top_navber{
     height: 70px;
     display: flex;
     align-items: center;
     padding: 0 30px;
+    
 }
 
 body.active .warapper .sidebar{
@@ -100,15 +102,31 @@ body.active .warapper .top{
     font-size: 25px;
     color: black !important;
 }
+.section_2{
+    margin-top: 250px ;
+}
+
+.polorchart{
+    height: 300px;
+}
 
 
+@media only screen and (max-width: 1023px) {
+    .section_2{
+        margin-top: 820px ;
+    }
+    
+    .polorchart{
+        height: 300px;
+    }
+   
+  }
+@media only screen and (max-width: 767px) {
 
-
-
-@media only screen and (max-width: 600px) {
     .warapper .sidebar{
         left: -280px;
         position: absolute;
+        position: fixed;
     }
     body.active .warapper .sidebar{
         left: 0%;
@@ -122,13 +140,18 @@ body.active .warapper .top{
     .top input {
        display:none;
     }
-    .top span i {
-       display:none;
-    }
+    
     .profile-pic {
         height: 30px;
         width: 30px;
     }
     
+    .section_2{
+        margin-top: 820px ;
+    }
+    
+    .polorchart{
+        height: 300px;
+    }
    
   }
