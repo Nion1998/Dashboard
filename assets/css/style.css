@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:ital,wght@0,300;0,700;1,400&family=Public+Sans:wght@100;500;800;900&family=Roboto+Condensed&family=Roboto+Mono:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,300;0,700;1,400&family=Public+Sans:wght@100;500;800;900&family=Roboto+Condensed&family=Roboto+Mono:wght@300&display=swap');
 *{
     list-style: none;
     margin: 0;
@@ -7,7 +7,7 @@
 }
 body{
     background-color: rgb(249, 249, 249);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Public Sans', sans-serif;
 
    
 }
@@ -72,15 +72,26 @@ body.active .warapper .top{
   }
 .accordion-button {
     transition: .5s;
+    font-size: 18px;
 
 }
-.accordion-button:not(.collapsed)::after  {
-    background-color: yellow;
+.accordion-button::after  {
+    display: none;
+    
+}
+.accordion-button .bi-chevron-right {
+    transform: rotate(90deg);
+    transition: .5s;
+    font-size: 15px;
+    font-weight: bold;
+}
+.collapsed .bi-chevron-right {
+    transform: rotate(00deg);
 }
 .accordion-button:not(.collapsed) {
     background: #1d2f43 !important;   
     color: #ffffff;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .bell{
