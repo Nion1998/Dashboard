@@ -94,6 +94,22 @@ body.active .warapper .top{
     font-size: 22px;
 }
 
+.nav-content li a{
+    text-decoration: none;
+    font-size:16px;
+    color: #1d2f43ad;
+    transition: .5s ;
+}
+.nav-content li :hover{
+    color: #1d2f43;
+}
+.sidebar_item_icone{
+    width: 24px;
+    height: 24px;
+}
+
+
+
 .bell{
     position: relative;
 }
