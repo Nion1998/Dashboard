@@ -146,6 +146,8 @@ body.active .warapper .top{
     .polorchart{
         height: 300px;
     }
+    
+    
    
   }
 @media only screen and (max-width: 767px) {
@@ -179,6 +181,9 @@ body.active .warapper .top{
     
     .polorchart{
         height: 300px;
+    }
+    .fs-7{
+        font-size: 13px;
     }
    
   }
