@@ -20,6 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <!-- CSS Link-->
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
@@ -159,6 +160,39 @@
                                         <span>Update</span>
                                     </a>
                                 </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed w-100  py-2 rounded-pill" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            <span class="pe-3"><i
+                                    class="fa-solid fa-cubes d-flex align-items-center sidebar_item_icone"></i></span>
+                            Packages <i class="bi bi-chevron-right ms-auto  "></i>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul class="nav-content fs-4">
+                                <li class="pb-1">
+                                    <a href="./login.html">
+                                        <span>Login</span>
+                                    </a>
+                                </li>
+                                <li class="pb-1">
+                                    <a href="./signup.html">
+                                        <span>Registration</span>
+                                    </a>
+                                </li>
+                                <li class="pb-1">
+                                    <a href="components-alerts.html">
+                                        <span>Forgot Password</span>
+                                    </a>
+                                </li>
+
                             </ul>
                         </div>
                     </div>
@@ -683,167 +717,210 @@
                             <div class=" pb-3 d-flex justify-content-between">
                                 <div class="fw-bold">Top Global Sales</div>
                             </div>
-                            <div class="d-flex justify-content-center">
+                            <div class="d-flex justify-content-center position-relative">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60939978.45430647!2d54.44356197663215!3d21.212762481360333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1682593505647!5m2!1sen!2sbd"
-                                    width="90%" height="370" style="border:0;" allowfullscreen="" loading="lazy"
+                                    width="100%" height="370" style="border:0;" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
+                                <div class=" p-1 position-absolute bottom-0 start-0 "
+                                    style=" height: 200px; width: 200px;">
 
+
+                                    <!-- Default Progress Bars-->
+                                    <div class="progress mt-4 ">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="progress mt-4 ">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%  "
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="progress mt-4 ">
+                                        <div class="progress-bar" role="progressbar" style="width: 50%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="progress mt-4 ">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <!-- End Default Progress Bars-->
+
+
+                                </div>
+                                <!-- Default Progress Bars-->
+                                <div class="progress mt-4 ">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%  " aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                                <div class="progress mt-4 ">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="progress mt-4 ">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <!-- End Default Progress Bars-->
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
 
             </div>
-            <!-- card section end-->
-            <!-- section 3 end -->
 
-            <!-- section 4 start -->
-            <!-- card section start -->
-            <div class=" container-fluid pt-4 ">
+        </div>
+        <!-- card section end-->
+        <!-- section 3 end -->
 
-                <div class="row g-4">
-                    <div class="col-12 col-xl-8">
-                        <div class="card shadow p-4 " style="border-radius: 25px; height: 463px;">
-                            <div class=" pb-3 d-flex justify-content-between">
-                                <div class="fw-bold">Top Global Sales</div>
-                            </div>
-                            <!-- Default Table -->
-                            <table class="table  fs-7 ">
-                                <thead>
-                                    <tr class="table-dark  ">
-                                        <th class="rounded-left"
-                                            style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">#
-                                        </th>
-                                        <th>Name</th>
-                                        <th>Position</th>
-                                        <th>Age</th>
-                                        <th style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
-                                            Date</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="scrollspy-example">
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Brandon </td>
-                                        <td>Designer</td>
-                                        <td>28</td>
-                                        <td>2016</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Bridie </td>
-                                        <td>Developer</td>
-                                        <td>35</td>
-                                        <td>2014</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Ashleigh </td>
-                                        <td>Finance</td>
-                                        <td>45</td>
-                                        <td>2011</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td>Angus </td>
-                                        <td>HR</td>
-                                        <td>34</td>
-                                        <td>2012</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">5</th>
-                                        <td>Raheem</td>
-                                        <td>Dynamic </td>
-                                        <td>47</td>
-                                        <td>2011</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <!-- End Default Table Example -->
+        <!-- section 4 start -->
+        <!-- card section start -->
+        <div class=" container-fluid pt-4 ">
+
+            <div class="row g-4">
+                <div class="col-12 col-xl-8">
+                    <div class="card shadow p-4 " style="border-radius: 25px; height: 463px;">
+                        <div class=" pb-3 d-flex justify-content-between">
+                            <div class="fw-bold">Top Global Sales</div>
                         </div>
-
+                        <!-- Default Table -->
+                        <table class="table  fs-7 ">
+                            <thead>
+                                <tr class="table-dark  ">
+                                    <th class="rounded-left"
+                                        style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">#
+                                    </th>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Age</th>
+                                    <th style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                                        Date</th>
+                                </tr>
+                            </thead>
+                            <tbody class="scrollspy-example">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Brandon </td>
+                                    <td>Designer</td>
+                                    <td>28</td>
+                                    <td>2016</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Bridie </td>
+                                    <td>Developer</td>
+                                    <td>35</td>
+                                    <td>2014</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Ashleigh </td>
+                                    <td>Finance</td>
+                                    <td>45</td>
+                                    <td>2011</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Angus </td>
+                                    <td>HR</td>
+                                    <td>34</td>
+                                    <td>2012</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Raheem</td>
+                                    <td>Dynamic </td>
+                                    <td>47</td>
+                                    <td>2011</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- End Default Table Example -->
                     </div>
-                    <div class="col-12 col-xl-4 ">
-                        <div class="card shadow p-2 p-4 " style="border-radius: 25px; height: 463px;">
-                            <div class="fw-bold pb-4 d-flex justify-content-between">
-                                <div>Transactions</div>
-                                <div>...</div>
-                            </div>
-                            <ul class="list-group list-group-flush fs-7 ">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <div class="d-flex align-items-center">
 
-                                        <div class="ms-2">36 % Off For Black Friday in Lux Resort<div
-                                                style="font-size: 10px; color: rgba(47, 47, 47, 0.4);">10 Aug
-                                                03:10
-                                                PM</div>
-                                        </div>
-                                    </div>
-
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <div class="d-flex align-items-center">
-
-                                        <div class="ms-2">36 % Off For Black Friday in Lux Resort <div
-                                                style="font-size: 10px; color: rgba(47, 47, 47, 0.4);">10 Aug
-                                                03:10
-                                                PM</div>
-                                        </div>
-                                    </div>
-
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <div class="d-flex align-items-center">
-
-                                        <div class="ms-2">36 % Off For Black Friday in Lux Resort<div
-                                                style="font-size: 10px; color: rgba(47, 47, 47, 0.4);">10 Aug
-                                                03:10
-                                                PM</div>
-                                        </div>
-                                    </div>
-
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <div class="d-flex align-items-center">
-
-                                        <div class="ms-2">36 % Off For Black Friday in Lux Resort <div
-                                                style="font-size: 10px; color: rgba(47, 47, 47, 0.4);">10 Aug
-                                                03:10
-                                                PM</div>
-                                        </div>
-                                    </div>
-
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <div class="d-flex align-items-center">
-
-                                        <div class="ms-2">36 % Off For Black Friday in Lux Resortl <div
-                                                style="font-size: 10px; color: rgba(47, 47, 47, 0.4);">10 Aug
-                                                03:10
-                                                PM</div>
-                                        </div>
-                                    </div>
-
-                                </li>
-
-                            </ul>
-                            <div class=" m-auto" style="color: #04B900;">More <i class="bi bi-chevron-down ps-1"></i>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
+                <div class="col-12 col-xl-4 ">
+                    <div class="card shadow p-2 p-4 " style="border-radius: 25px; height: 463px;">
+                        <div class="fw-bold pb-4 d-flex justify-content-between">
+                            <div>Transactions</div>
+                            <div>...</div>
+                        </div>
+                        <ul class="list-group list-group-flush fs-7 ">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
 
+                                    <div class="ms-2">36 % Off For Black Friday in Lux Resort<div
+                                            style="font-size: 10px; color: rgba(47, 47, 47, 0.4);">10 Aug
+                                            03:10
+                                            PM</div>
+                                    </div>
+                                </div>
 
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+
+                                    <div class="ms-2">36 % Off For Black Friday in Lux Resort <div
+                                            style="font-size: 10px; color: rgba(47, 47, 47, 0.4);">10 Aug
+                                            03:10
+                                            PM</div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+
+                                    <div class="ms-2">36 % Off For Black Friday in Lux Resort<div
+                                            style="font-size: 10px; color: rgba(47, 47, 47, 0.4);">10 Aug
+                                            03:10
+                                            PM</div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+
+                                    <div class="ms-2">36 % Off For Black Friday in Lux Resort <div
+                                            style="font-size: 10px; color: rgba(47, 47, 47, 0.4);">10 Aug
+                                            03:10
+                                            PM</div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+
+                                    <div class="ms-2">36 % Off For Black Friday in Lux Resortl <div
+                                            style="font-size: 10px; color: rgba(47, 47, 47, 0.4);">10 Aug
+                                            03:10
+                                            PM</div>
+                                    </div>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                        <div class=" m-auto" style="color: #04B900;">More <i class="bi bi-chevron-down ps-1"></i>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <!-- card section end-->
-            <!-- section 3 end -->
-
 
 
         </div>
+        <!-- card section end-->
+        <!-- section 3 end -->
+
+
+
+    </div>
 
     </div>
 
