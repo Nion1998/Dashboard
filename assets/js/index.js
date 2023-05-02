@@ -212,3 +212,13 @@ $('#chartDiv').JSC({
     toolbarVisible: false
   
   })
+
+
+
+  //Crud oparetion start 
+
+   let data =[
+    {id:1 , hours:45 , adults:5 , children:3, total:588, added_On:"04-01-2023",status:"Confirmed"  }
+   ]
+
+  // crud oparetion end

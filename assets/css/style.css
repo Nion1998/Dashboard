@@ -100,9 +100,7 @@ body.active .warapper .top{
     color: #1d2f43ad;
     transition: .5s ;
 }
-.nav-content li :hover{
-    color: #1d2f43;
-}
+
 .sidebar_item_icone{
     width: 24px;
     height: 24px;
@@ -124,16 +122,25 @@ body.active .warapper .top{
     right:2px;
 }
 
-.fa-bars::before{
-    font-size: 25px;
-    color: black !important;
-}
+
 .section_2{
     margin-top: 250px ;
+
 }
 
 .polorchart{
     height: 300px;
+}
+.nav-content li {
+    padding: 4px 0px 4px 8px;
+    transition: .5s;
+}
+.nav-content li:hover {
+    background-color: #1d2f4442;
+    font-size:bold !important;
+    color: #1d2f43 !important;
+    
+    
 }
 
 
